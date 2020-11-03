@@ -1,6 +1,7 @@
 import { v4 as uuid } from 'uuid';
 
 class Transaction {
+
   id: string;
 
   title: string;
@@ -15,6 +16,7 @@ class Transaction {
     this.value = value;
     this.type = type;
   }
+
 }
 
 export default Transaction;
